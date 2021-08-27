@@ -1,2 +1,23 @@
 ##Este es un ejemplo de un archivo de reportería FCA
 
+GenerarReporteEstadistico{
+
+    definirglobales{
+        string reporteResumen = "Reporte de Archivo file_1.js de los proyectos";
+    }
+
+    #*
+    Este comentario debería ser ignorado 189214'!""$%$&"#$"#"#4
+    *#
+
+    ##Cargamos los proyectos correspondientes
+    COMPARE("C:\OLC1\Proyectos\ProyectoA", "C:\OLC1\Proyectos\OtroProyecto\ProyectoB");
+
+    GraficaLineas{
+        TiTulO: reporteResumen; 
+        ArChIv0: "file_1.js";
+    }
+
+
+
+}
