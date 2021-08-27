@@ -17,3 +17,5 @@ En este folder se encontrarán los archivos de prueba .fca y .js correspondiente
     - 202112345
         - archivo.fca
         - lista reportes
+
+# Nota: Aun se está construyendo la sección de proyecto 1
