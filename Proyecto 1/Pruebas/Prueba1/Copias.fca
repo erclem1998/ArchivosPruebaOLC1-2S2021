@@ -18,5 +18,10 @@ GenerarReporteEstadistico{
         ArChIvO: "file_1.js";
     }
 
+    graficalineas{
+        titulo: "Reporte file_2"; 
+        archivo: "file_2.js";
+    }
+
 
 }
