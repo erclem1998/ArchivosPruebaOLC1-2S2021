@@ -11,5 +11,5 @@ El archivo .fca se irá incrementando conforme se vayan obteniendo los reportes 
 - Agregar ProyectoA en la ruta "C:\OLC1\Proyectos\OtroProyecto\ProyectoB"
 
 
-### Los reportes serán agregados proximamente
+### Los reportes de las graficas se iran agregando, ademas del archivo HTML final requerido 
 
