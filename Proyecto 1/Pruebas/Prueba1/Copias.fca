@@ -15,9 +15,8 @@ GenerarReporteEstadistico{
 
     GraficaLineas{
         TiTulO: reporteResumen; 
-        ArChIv0: "file_1.js";
+        ArChIvO: "file_1.js";
     }
-
 
 
 }
