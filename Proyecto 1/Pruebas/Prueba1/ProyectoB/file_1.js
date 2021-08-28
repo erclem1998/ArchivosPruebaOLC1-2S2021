@@ -18,10 +18,12 @@ class draws_generator {
             }
             draw_triangle_draw = draw_triangle_draw + "\n"
         }
+        var x="prueba"; 
         console.log(draw_triangle_draw);
     }
 
     draw_square() {
+        const a=5;
         let draw_square_draw = '';
         if (square_size >= 2 && square_size <= 50) {
             for (let draw_square_i = 1; draw_square_i <= square_size; draw_square_i++) {

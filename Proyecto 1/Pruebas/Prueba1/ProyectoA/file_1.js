@@ -32,9 +32,13 @@ class draws {
                 }
                 sq_draw = sq_draw + "\n"
             }
-            console.log(sq_draw);
+            imprimir(sq_draw);
         } else {
-            console.log("Por favor ingrese un numero entre 2 y 50");
+            imprimir("Por favor ingrese un numero entre 2 y 50");
         }
+    }
+
+    imprimir(var1){
+        console.log(var1)
     }
 }
