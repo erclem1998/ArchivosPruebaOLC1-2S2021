@@ -1,4 +1,4 @@
-class ejercicios_numéricos {
+class ejercicios_numericos {
     fibonacci_generator(fibonacci_generator_max) {
         var siguiente = 1;
         var actual = 0;
