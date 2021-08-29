@@ -14,11 +14,7 @@ GenerarReporteEstadistico{
         Double pr5 = ${PuntajeEspecifico,"file_1.js","variable","draw_square_j"};
         Double pr6 = ${PuntajeEspecifico,"file_1.js","variable","draw_triangle_j"};
         Double pr9 = ${PuntajeEspecifico,"file_1.js","variable","draw_triangle_draw"};
-        Double pr10 = ${PuntajeEspecifico,"file_1.js","variable","draw_triangle_i"};
-        Double pr11 = ${PuntajeEspecifico,"file_1.js","variable","draw_triangle_j"};
         Double pr12 = ${PuntajeEspecifico,"file_1.js","variable","draw_square_draw"};
-        Double pr13 = ${PuntajeEspecifico,"file_1.js","variable","draw_square_i"};
-        Double pr14 = ${PuntajeEspecifico,"file_1.js","variable","draw_square_j"};
         Double pr15 = ${PuntajeEspecifico,"file_1.js","variable","x"};
         Double pr16 = ${PuntajeEspecifico,"file_1.js","variable","a"};
 
@@ -29,11 +25,7 @@ GenerarReporteEstadistico{
         Double pe5 = 1;
         Double pe6 = 1;
         Double pe9 = 0;
-        Double pe10 = 1;
-        Double pe11 = 1;
         Double pe12 = 0;
-        Double pe13 = 1;
-        Double pe14 = 1;
         Double pe15 = 0;
         Double pe16 = 0;
 
@@ -62,16 +54,16 @@ GenerarReporteEstadistico{
 
     GraficaBarras {
         Titulo: titulobarrasreal;
-        EjeX: [ "x", "siguiente", "actual", "temporal", "fibonacci_generator_num1", "fibonacci_generator_num2", "fibonacci_generator_i", "fibonacci_generator_prev", "fact_generator_product", "fact_generator_product" ];
-        Valores: [ pr1, pr2, pr3, pr4, pr5, pr6, pr9, pr10, pr11, pr12, pr13, pr14, pr15, pr16 ];
+        EjeX: [ "triangle_draw", "draw_triangle_i", "sq_draw", "draw_square_i", "draw_square_j", "draw_triangle_j", "draw_triangle_draw", "draw_square_draw", "x", "a" ];
+        Valores: [ pr1, pr2, pr3, pr4, pr5, pr6, pr9, pr12, pr15, pr16 ];
         TituloX: "Nombre de las variables";
         TituloY: "Puntaje";
     }
 
     GraficaBarras {
         Titulo: titulobarrasesperada;
-        EjeX: [ "x", "siguiente", "actual", "temporal", "fibonacci_generator_num1", "fibonacci_generator_num2", "fibonacci_generator_i", "fibonacci_generator_prev", "fact_generator_product", "fact_generator_product" ];
-        Valores: [ pe1, pe2, pe3, pe4, pe5, pe6, pe9, pe10, pe11, pe12, pe13, pe14, pe15, pe16 ];
+        EjeX: [ "triangle_draw", "draw_triangle_i", "sq_draw", "draw_square_i", "draw_square_j", "draw_triangle_j", "draw_triangle_draw", "draw_square_draw", "x", "a" ];
+        Valores: [ pe1, pe2, pe3, pe4, pe5, pe6, pe9, pe12, pe15, pe16 ];
         TituloX: "Nombre de las variables";
         TituloY: "Puntaje";
     }
