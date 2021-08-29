@@ -19,3 +19,18 @@ En este folder se encontrarán los archivos de prueba .fca y .js correspondiente
         - lista reportes
 
 # Nota: Aun se está construyendo la sección de proyecto 1
+
+# IMPORTANTE PARA CÁLCULO DE PUNTAJE DE METODOS
+Evaluando el cálculo del puntaje de los métodos, hemos llegado a un acuerdo para facilitarles el cálculo de esta métrica.
+
+Por lo tanto, se procederá de la siguiente manera:
+
+Si ambos ID (nombre de los métodos) son iguales:
+- verifica cantidad de parámetros
+- verifica cantidad de líneas
+
+Si ambos ID (nombre de los métodos) son diferentes:
+- verifica cantidad de líneas
+- si ID's diferentes y cantidad de líneas igual, verifica cantidad de parámetros
+
+Para ambos casos, cuando hace el primer match, ya no debe comparar con el resto de métodos.
