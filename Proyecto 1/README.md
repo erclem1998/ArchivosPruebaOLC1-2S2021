@@ -20,6 +20,9 @@ En este folder se encontrarán los archivos de prueba .fca y .js correspondiente
 
 # Nota: Aun se está construyendo la sección de proyecto 1
 
+# SE HA COMPARTIDO UN EJEMPLO PARA EL CALCULO DEL PUNTAJE GENERAL
+Ver archivo adjunto llamado "Guía calculo de puntaje general.xlsx"
+
 # IMPORTANTE PARA CÁLCULO DE PUNTAJE DE METODOS
 Evaluando el cálculo del puntaje de los métodos, hemos llegado a un acuerdo para facilitarles el cálculo de esta métrica.
 
