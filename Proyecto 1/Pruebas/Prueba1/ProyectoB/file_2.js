@@ -11,8 +11,9 @@ class complex_exercises {
     }
 
     hanoi_generator(hanoi_generator_n, hanoi_generator_origin, hanoi_generator_aux, hanoi_generator_dest) {
-        if (hanoi_generator_n == 1)
+        if (hanoi_generator_n == 1){
             console.log("Mover disco de " + hanoi_generator_origin + " a " + hanoi_generator_dest);
+        }
         else {
             hanoi_generator(hanoi_generator_n - 1, hanoi_generator_origin, hanoi_generator_dest, hanoi_generator_aux);
             console.log("mover disco de " + hanoi_generator_origin + " a " + hanoi_generator_dest);
@@ -24,7 +25,7 @@ class complex_exercises {
         let fact_generator_product = 1;
         let fact_generator_i = 1;
         do {
-            fact_generator_product *= fact_generator_i;
+            fact_generator_product = fact_generator_product * fact_generator_i;
             fact_generator_i++;
         } while (fact_generator_i <= fact_generator_n);
         console.log(fact_generator_product);
