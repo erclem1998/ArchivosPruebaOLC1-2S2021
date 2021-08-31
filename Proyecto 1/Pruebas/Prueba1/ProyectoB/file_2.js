@@ -25,7 +25,7 @@ class complex_exercises {
         let fact_generator_product = 1;
         let fact_generator_i = 1;
         do {
-            fact_generator_product *= fact_generator_i;
+            fact_generator_product = fact_generator_product * fact_generator_i;
             fact_generator_i++;
         } while (fact_generator_i <= fact_generator_n);
         console.log(fact_generator_product);
