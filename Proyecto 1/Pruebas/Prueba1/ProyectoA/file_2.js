@@ -14,8 +14,9 @@ class ejercicios_numericos {
     }
 
     torresDeHanoi(hanoi_generator_n, hanoi_generator_origin, hanoi_generator_aux, hanoi_generator_dest) {
-        if (hanoi_generator_n == 1)
+        if (hanoi_generator_n == 1){
             console.log("Mover disco de " + hanoi_generator_origin + " a " + hanoi_generator_dest);
+	}
         else {
             torresDeHanoi(hanoi_generator_n - 1, hanoi_generator_origin, hanoi_generator_dest, hanoi_generator_aux);
             console.log("mover disco de " + hanoi_generator_origin + " a " + hanoi_generator_dest);
