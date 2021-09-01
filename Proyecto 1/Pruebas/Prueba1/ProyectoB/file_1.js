@@ -24,7 +24,7 @@ class draws_generator {
 
     draw_square() {
         const a=5;
-        let draw_square_draw = '';
+        let draw_square_draw = "";
         if (square_size >= 2 && square_size <= 50) {
             for (let draw_square_i = 1; draw_square_i <= square_size; draw_square_i++) {
                 for (let draw_square_j = 1; draw_square_j <= square_size; draw_square_j++) {
