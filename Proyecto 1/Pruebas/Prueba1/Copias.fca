@@ -38,7 +38,7 @@ GenerarReporteEstadistico{
         String s1 = "hanoi_generator";
         String s2 = "fact_generator";
 
-        String t1="Comparacion de metodos";  
+        String t1="Comparacion de metodos";
     }
 
     #*
