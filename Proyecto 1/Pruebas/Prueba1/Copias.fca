@@ -31,6 +31,14 @@ GenerarReporteEstadistico{
 
         String titulobarrasesperada = "Probabilidades esperadas para variables archivo file_1.js";
         String titulobarrasreal = "Probabilidades obtenidas para variables archivo file_1.js";
+
+        Double p1=${PuntajeEspecifico, "file_2.js","metodo","fibonacci_generator"};
+        Double p2=${PuntajeEspecifico, "file_2.js","metodo","torresDeHanoi"};
+
+        String s1 = "hanoi_generator";
+        String s2 = "fact_generator";
+
+        String t1="Comparacion de metodos";  
     }
 
     #*
@@ -67,5 +75,17 @@ GenerarReporteEstadistico{
         TituloX: "Nombre de las variables";
         TituloY: "Puntaje";
     }
+
+    ## AGREGANdo Graficas de Pie
+
+    GraficaPie{
+        Titulo: t1;
+        EjeX: [ "fibonacci_generator", "torresDeHanoi", s1, s2 ];
+        Valores: [ p1, p2, ${PuntajeEspecifico, "file_2.js","metodo","hanoi_generator"}, ${PuntajeEspecifico, "file_2.js","metodo","fact_generator"} ];
+    }
+
+    #*
+        OJO: Es posible que se suba otro ejemplo de grafica de pie
+    *#
 
 }
