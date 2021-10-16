@@ -46,7 +46,7 @@ void figura1(int n) {
         WriteLine("Si la figura es un corazón, te aseguro que tendrás un 100 :3");
     }
 
-exec metodo1();
+StarT WItH metodo1();
 
 /*
     este es un comentario multilinea
