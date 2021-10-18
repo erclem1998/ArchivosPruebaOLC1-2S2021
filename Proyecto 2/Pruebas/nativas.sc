@@ -79,4 +79,19 @@ tamaño: 14
 ------------------TOSTRING-------------------
 tipo: INT
 tipo: STRING
+----------------TOCHARARRAY------------------
+########imprimiendo lista de caracteres#######
+listaChar[[0]] = S
+listaChar[[1]] = O
+listaChar[[2]] = Y
+listaChar[[3]] =  
+listaChar[[4]] = U
+listaChar[[5]] = N
+listaChar[[6]] = A
+listaChar[[7]] =  
+listaChar[[8]] = L
+listaChar[[9]] = I
+listaChar[[10]] = S
+listaChar[[11]] = T
+listaChar[[12]] = A
 */
