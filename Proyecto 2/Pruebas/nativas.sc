@@ -38,9 +38,19 @@ void funcionesEspecialesYNativas(){
     int numero=105;
     writeline("tipo: "+typeof(numero));
     writeline("tipo: "+typeof(toString(numero)));
+    writeline("----------------TOCHARARRAY------------------");
+    dynamiclist<char> listaChar = toCharArray("SOY UNA LISTA");
+    writeline("########imprimiendo lista de caracteres#######");
+    imprimirListaChar(listaChar);
 }
 
 exec funcionesEspecialesYNativas();
+
+void imprimirListaChar(dynamiclist<char> miLista){
+    for (int i = 0; i < length(miLista); i++) {
+        print("listaChar[[" + i + "]] = " + getValue(miLista,i));
+    }
+}
 
 /*
 --------------------SALIDA ESPERADA-----------------
