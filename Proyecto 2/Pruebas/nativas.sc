@@ -44,7 +44,7 @@ void funcionesEspecialesYNativas(){
     imprimirListaChar(listaChar);
 }
 
-exec funcionesEspecialesYNativas();
+start with funcionesEspecialesYNativas();
 
 void imprimirListaChar(dynamiclist<char> miLista){
     for (int i = 0; i < length(miLista); i++) {
