@@ -48,7 +48,7 @@ exec funcionesEspecialesYNativas();
 
 void imprimirListaChar(dynamiclist<char> miLista){
     for (int i = 0; i < length(miLista); i++) {
-        print("listaChar[[" + i + "]] = " + getValue(miLista,i));
+        writeLine("listaChar[[" + i + "]] = " + getValue(miLista,i));
     }
 }
 
